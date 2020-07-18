@@ -1,0 +1,104 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffedbc;
+  min-height: 4vh;
+  display: flex;
+  flex-direction: row;
+  align-content: right;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Geogrotesque-SemiBold,sans-serif;  
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+.nav-item {
+
+  align-content: right;
+  min-height: 4vh;
+  display:flex;
+  flex-direction: row;
+  align-content: right;
+  justify-content: right;
+  font-size: 20px;
+  color: white;
+  font-family: Monaco,monospace; 
+  font-weight: 100;
+  font-style: normal;
+  
+
+}
+
+.nav-ite {
+
+ 
+  display:flex;
+  background-color: white;
+  flex-direction: row;
+  font-size: 20px;
+  color: #666;
+  font-family:  Monaco,monospace; 
+  font-weight: 100;
+  font-style: normal;
+  
+
+}
+
+.nav-it {
+
+ 
+  display:flex;
+  background-color: #ece4d1;
+  flex-direction: row;
+  font-size: 20px;
+  color: #666;
+  font-family:  Monaco,monospace; 
+  font-weight: 100;
+  font-style: normal;
+  
+
+}
+.map {
+
+ 
+  text-align: center;
+  width:1000px; 
+  height:1000px;
+    border:0;
+   
+   
+}
+
+.bg-secondary {
+
+  font-style: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
